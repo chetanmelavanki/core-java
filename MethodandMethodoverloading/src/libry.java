@@ -4,13 +4,13 @@ public class libry
 {
 	public static void main(String []args)
 	{
-		Library.bookname();
+		Library.book("Ramayan ");
 		
-		Library.bookPrice(348.99);
+		Library.book(348.99);
 		
-		Library.bookAuthor("valmiki  ", " Dev publication");
+		Library.book("valmiki  ", " Dev publication");
 		
-		Library.bookPages(1289,"  Time New Roman");
+		Library.book(1289,"  Time New Roman");
 		
 		Library.book(348.99, 1289, "  Kannada", 'W');
 	}

@@ -6,24 +6,24 @@
 		System.out.println("Ramayan book");
 	}
 	
-	static void bookname()
+	static void book(String bookname)
 	{
-		System.out.println("Ramayan book");
+		System.out.println(bookname);
 	}
 	
-	static void bookPrice(double price)
+	static void book(double price)
 	{
 		System.out.println(price);
 	}
 	
-	public static void bookAuthor(String name,String publication)
+	public static void book(String name,String publication)
 	{
 		System.out.println(name + publication);
 	}
 	
-	public static void bookPages(int page,String font)
+	public static void book(int pages,String font)
 	{
-		System.out.println(page + font);
+		System.out.println(pages + font);
 	}
 	
 	public static void book(double price,int pages,String lang,char pageColor)
