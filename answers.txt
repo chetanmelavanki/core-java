@@ -1,0 +1,99 @@
+1)using enum we can create constants.
+2)2 types of datatypes are there in java
+  1.primitive
+	2.non primitive
+3)because of different type of value we use different datatype .
+4)this keyword is used to for naming conventions in java.
+5)int a; it is variable initialization :-iniatializing variable to store some value and  
+here we can only create variable name and we dont assign any value. 
+int a=10; it is assigning value to the variable : here we assign some value that to
+ be stored in the variable name a.
+6)array is collection of similar type of elements or collection of homogeneous elements .
+7)no we cannot pass negative number in Array size.
+8)Array is stored in the HeapArea
+9)*array store the elements same datatype.
+  *array can be used store multiple elements.
+11)public class Arr{
+	public static void main(String[] args){
+		int a[]=new int[5];
+		a[0]=1;
+		a[1]=2;
+		a[2]=3;
+		a[3]=4;
+		a[4]=5;
+
+		for(int i=0;i<a.length;i++){
+				System.out.println(a[i]);	
+	}
+}
+}
+
+12) 
+public class ArrSort{
+	public static void main(String[] args){
+		int a[]=new int[5];
+		a[0]=1;
+		a[1]=2;
+		a[2]=4;
+		a[3]=5;
+		a[4]=3;
+		Arrays.sort(a);
+		for (int i = 0; i < a.length; i++) {
+			System.out.println(a[i]);
+		}
+		
+		
+	
+}
+}
+13)
+public class ArrEqual{
+	public static void main(String[] args){
+		int a[]=new int[2];
+		a[0]=1;
+		a[1]=1;
+		
+		ArrEqual arr=new ArrEqual();
+	
+		System.out.println(a.equals(a));
+		
+		
+	
+}
+}
+
+14)public class ArrException{
+	public static void main(String[] args){
+		int a[]=new int[5];
+		a[0]=1;
+		a[1]=2;
+		a[2]=4;
+		a[3]=5;
+		a[4]=3;
+		a[5]=5;
+		for (int i = 0; i < a.length; i++) {
+			System.out.println(a[i]);
+		}
+		
+		
+	
+}
+}
+15)compiler will assign the default values.
+17)static keyword :static keyword is used to share same  variable or methods to given class
+static variable:a variable which is declared inside a class and inside a method .
+static methods: a method declred as static means only share to that instance of class only.
+18)you can only overload static methods and we cannot override static methods.
+19because jvm can execute our pgm without creating object of that class.
+21)no,      constuctors cannot static in java
+22)no,   interface cannot have static methods.
+23)calling one constructor within another constructor and it is will calling 1st in body of constructor .
+			super() method is used for constructor chaining.
+24)constructor is declared same name as class name and without returnType.
+25)constuctor becomes a method of class
+26)no we cannot call sub class constucor using super class
+27)using upcasting we  can create instance of child class with a parent type
+28)class:1.class is used to create object,2.class cannot provide memory space
+	object:an object is a instance of class,2.object provide new memory space using new keyword
+29)we can create a instance using new keyword
+30)if we create a instance of class using that instance we can invoke the methods and properties of a class
